@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #e6d6f7;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.form form {
+    background-color: white;
+    padding: 2rem;
+    width: 28rem;
+    border-radius: 10px;
+    box-shadow: 0px 6px 20px rgba(144, 144, 144);
+    text-align: center;
+}
+
+.form h2 {
+    margin-bottom: 1.2rem;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7928ca;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #5d1b9c;
+}
+
+.msg {
+    color: red;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+p a {
+    color: #4e00c2;
+    font-weight: bold;
+}
+
+.user-page {
+    text-align: center;
+    margin-top: 15rem;
+    background-color: white;
+    padding: 1rem;
+}
+
+.user-page p {
+    font-size: 18px;
+    margin-top: 2rem;
+}
+
+.user-page.button {
+    margin-top: 15px;
+    color: white;
+    background-color: #783595;
+    padding: 10px 25px;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#logout {
+    margin-top: 15px;
+    width: 8%;
+}
